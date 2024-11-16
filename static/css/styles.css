@@ -1,0 +1,109 @@
+/* Reset styles for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brand h1 {
+    font-size: 2.5em;
+    color: #0066cc;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Details section styling */
+.details {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.details h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.reasons-list {
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+.reasons-list li {
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+.highlight {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0066cc;
+    margin-top: 15px;
+}
+
+/* Contact section styling */
+.contact {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #ddd;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 2px solid #ddd;
+    font-size: 0.9em;
+    color: #777;
+}
